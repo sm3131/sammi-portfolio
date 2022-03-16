@@ -3,30 +3,32 @@ import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav() {
     return (
-        <header>
-            <h2>
+        <header className = "container">
+            <div className ="row">
+            <h2 className="col-12 text-center">
                 <a>
                     Sammi Moore
                 </a>
             </h2>
+            </div>
             <nav>
-                <ul>
-                    <li>
+                <ul className ="row align-center nav-list">
+                    <li className="col-12 col-md-3 col-lg-3">
                         <a>
                             About Me
                         </a>
                     </li>
-                    <li>
+                    <li className="col-12 col-md-3 col-lg-3">
                         <span>
                             Portfolio
                         </span>
                     </li>
-                    <li>
+                    <li className="col-12 col-md-3 col-lg-3">
                         <span>
                             Resume
                         </span>
                     </li>
-                    <li>
+                    <li className="col-12 col-md-3 col-lg-3">
                         <span>
                             Contact Me
                         </span>
