@@ -1,7 +1,13 @@
 import React from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Nav() {
+function Nav(props) {
+
+    const {
+        portfolioSelected,
+        setPortfolioSelected
+    } = props;
+
     return (
         <header className = "container">
             <div className ="row">
@@ -14,22 +20,22 @@ function Nav() {
             <nav>
                 <ul className ="row align-center nav-list">
                     <li className="col-12 col-md-3 col-lg-3 nav-item">
-                        <a>
+                        <span onClick={() => setPortfolioSelected(false)}>
                             About Me
-                        </a>
+                        </span>
                     </li>
                     <li className="col-12 col-md-3 col-lg-3 nav-item">
-                        <span>
+                        <span onClick={() => setPortfolioSelected(true)}>
                             Portfolio
                         </span>
                     </li>
                     <li className="col-12 col-md-3 col-lg-3 nav-item">
-                        <span>
+                        <span onClick={() => setPortfolioSelected(false)}>
                             Resume
                         </span>
                     </li>
                     <li className="col-12 col-md-3 col-lg-3 nav-item">
-                        <span>
+                        <span onClick={() => setPortfolioSelected(false)}>
                             Contact Me
                         </span>
                     </li>

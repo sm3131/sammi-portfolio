@@ -35,6 +35,14 @@ h2 {
   list-style:none;
 }
 
+.work-head {
+  text-align: center;
+}
+
+.project-head {
+  text-align: center;
+}
+
 footer {
   background:cornflowerblue;
   text-align: center;
