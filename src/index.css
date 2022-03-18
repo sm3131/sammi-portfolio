@@ -43,6 +43,18 @@ h2 {
   text-align: center;
 }
 
+.resume-head {
+  text-align: center;
+}
+
+.resume-text {
+  text-align: center;
+}
+
+.resume-list {
+  list-style: none;
+}
+
 footer {
   background:cornflowerblue;
   text-align: center;
