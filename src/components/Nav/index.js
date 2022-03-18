@@ -15,22 +15,22 @@ function Nav({ currentPage, handlePageChange }) {
             <nav>
                 <ul className ="row align-center nav-list">
                     <li className="col-12 col-md-3 col-lg-3 nav-item">
-                        <span onClick={() => handlePageChange('About')}>
+                        <span onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-active': 'nav-not-active'}>
                             About Me
                         </span>
                     </li>
                     <li className="col-12 col-md-3 col-lg-3 nav-item">
-                        <span onClick={() => handlePageChange('Portfolio')}>
+                        <span onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'nav-active': 'nav-not-active'}>
                             Portfolio
                         </span>
                     </li>
                     <li className="col-12 col-md-3 col-lg-3 nav-item">
-                        <span onClick={() => handlePageChange('Resume')}>
+                        <span onClick={() => handlePageChange('Resume')} className={currentPage === 'Resume' ? 'nav-active': 'nav-not-active'}>
                             Resume
                         </span>
                     </li>
                     <li className="col-12 col-md-3 col-lg-3 nav-item">
-                        <span onClick={() => handlePageChange('Contact')}>
+                        <span onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'nav-active': 'nav-not-active'}>
                             Contact Me
                         </span>
                     </li>

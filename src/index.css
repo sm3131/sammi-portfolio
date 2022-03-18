@@ -20,6 +20,14 @@ header {
   color:darkblue;
 }
 
+.nav-not-active {
+  color:whitesmoke;
+}
+
+.nav-active {
+  color:darkblue;
+}
+
 main {
   background:aliceblue;
 }
@@ -43,16 +51,40 @@ h2 {
   text-align: center;
 }
 
-.resume-head {
-  text-align: center;
-}
-
-.resume-text {
-  text-align: center;
-}
-
 .resume-list {
   list-style: none;
+}
+
+.image-cover {
+  background-color: rgba(26, 138, 218, 0.9);
+}
+
+.project-anchor {
+  text-decoration:none;
+}
+
+.project-name {
+  text-align: center;
+  margin-top:30%;
+}
+
+.project-name:hover {
+  color:whitesmoke;
+}
+
+.project-repo {
+  color:darkblue;
+  text-align:center;
+  font-size: 30px;
+}
+
+.project-repo:hover {
+  color:whitesmoke;
+  cursor: pointer;
+}
+
+.project-img {
+  margin-left: 20%;
 }
 
 footer {
@@ -72,6 +104,14 @@ footer {
   }
 
   .about-text {
+    text-align: center;
+  }
+
+  .resume-head {
+    text-align: center;
+  }
+  
+  .resume-text {
     text-align: center;
   }
 }

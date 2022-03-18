@@ -1,4 +1,5 @@
 import React from "react";
+import Project from "../Project"
 
 function Portfolio() {
     return (
@@ -6,7 +7,8 @@ function Portfolio() {
             <h1 className="work-head">My Work</h1>
             <div className="row">
                 <div className="col-12 col-md-6 col-lg-6">
-                    <h2 className="project-head">Project 1</h2>
+                    {/* <h2 className="project-head">Project 1</h2> */}
+                    <Project />
                 </div>
                 <div className="col-12 col-md-6 col-lg-6">
                     <h2 className="project-head">Project 2</h2>
