@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
+import Contact from "./Contact";
 
 function PortfolioContainer() {
 
@@ -18,9 +19,9 @@ function PortfolioContainer() {
         if (currentPage === 'Resume') {
             return <Resume />;
         }
-        // if (currentPage === 'Contact') {
-        //     return <Contact />;
-        //   }
+        if (currentPage === 'Contact') {
+            return <Contact />;
+          }
     };
 
     const handlePageChange = (page) => setCurrentPage(page);

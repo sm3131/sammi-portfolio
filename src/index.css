@@ -99,6 +99,14 @@ h2 {
   background-color: white;
 }
 
+.contact-head{
+ margin-left: 0.5em;
+}
+
+.contact-form {
+ margin-left: 1.75rem;
+}
+
 footer {
   background:cornflowerblue;
   text-align: center;
