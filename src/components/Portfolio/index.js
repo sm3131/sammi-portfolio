@@ -2,32 +2,72 @@ import React from "react";
 import Project from "../Project"
 
 function Portfolio() {
+
+    const projects =
+        [
+            {
+                title: 'Workout Tracker Pro',
+                name: 'workout-app',
+                link: 'https://workout-tracker-pro.herokuapp.com/',
+                repo: 'https://github.com/sm3131/workout-tracker-pro'
+            },
+            {
+                title: 'Weather Tracker',
+                name: 'weather-app',
+                link: 'https://sm3131.github.io/weather-dashboard/',
+                repo: 'https://github.com/sm3131/weather-dashboard'
+            },
+            {
+                title: 'Coding Tech Blog',
+                name: 'tech-blog-app',
+                link: 'https://tech-blog30.herokuapp.com/',
+                repo: 'https://github.com/sm3131/tech-blog'
+            },
+            {
+                title: 'Bored and Brews',
+                name: 'bored-brews-app',
+                link: 'https://fmatthew40.github.io/bored-and-brews/',
+                repo: 'https://github.com/fmatthew40/bored-and-brews'
+            },
+            {
+                title: 'Code Quiz',
+                name: 'code-quiz-app',
+                link: 'https://sm3131.github.io/code-quiz/',
+                repo: 'https://github.com/sm3131/code-quiz'
+            },
+            {
+                title: 'Work Day Scheduler',
+                name: 'work-day-app',
+                link: 'https://sm3131.github.io/work-day-scheduler/',
+                repo: 'https://github.com/sm3131/work-day-scheduler'
+            }
+        ]
+
     return (
         <section className="container">
             <h1 className="work-head">My Work</h1>
             <div className="row">
                 <div className="col-12 col-md-6 col-lg-6">
-                    {/* <h2 className="project-head">Project 1</h2> */}
-                    <Project />
+                    <Project project={projects[0]} />
                 </div>
                 <div className="col-12 col-md-6 col-lg-6">
-                    <h2 className="project-head">Project 2</h2>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-12 col-md-6 col-lg-6">
-                    <h2 className="project-head">Project 3</h2>
-                </div>
-                <div className="col-12 col-md-6 col-lg-6">
-                    <h2 className="project-head">Project 4</h2>
+                    <Project project={projects[1]} />
                 </div>
             </div>
             <div className="row">
                 <div className="col-12 col-md-6 col-lg-6">
-                    <h2 className="project-head">Project 5</h2>
+                    <Project project={projects[2]} />
                 </div>
                 <div className="col-12 col-md-6 col-lg-6">
-                    <h2 className="project-head">Project 6</h2>
+                    <Project project={projects[3]} />
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-12 col-md-6 col-lg-6">
+                    <Project project={projects[4]} />
+                </div>
+                <div className="col-12 col-md-6 col-lg-6">
+                    <Project project={projects[5]} />
                 </div>
             </div>
         </section>

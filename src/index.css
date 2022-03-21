@@ -61,6 +61,7 @@ h2 {
 
 .project-anchor {
   text-decoration:none;
+  text-align: center;
 }
 
 .project-name {
@@ -83,8 +84,19 @@ h2 {
   cursor: pointer;
 }
 
-.project-img {
-  margin-left: 20%;
+.img-div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.app-img {
+  width:450px;
+  height:450px;
+  object-fit:scale-down;
+}
+
+.project-img:hover {
+  background-color: white;
 }
 
 footer {
