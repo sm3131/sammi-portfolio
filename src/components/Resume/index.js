@@ -28,6 +28,7 @@ function Resume() {
                         <li>MongoDB</li>
                         <li>Sequelize</li>
                         <li>Mongoose</li>
+                        <li>GraphQL</li>
                     </ul>
                 </div>
             </div>

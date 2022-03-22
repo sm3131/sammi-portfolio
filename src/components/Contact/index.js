@@ -10,7 +10,7 @@ function Contact() {
 
     function handleChange(e) {
 
-        if (e.target.name === 'email') {
+        if (e.target.name === 'Email') {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
             // isValid conditional statement
@@ -51,11 +51,11 @@ function Contact() {
                     <label htmlFor="name">Name:</label>
                     <input type="text" className="form-control w-25" defaultValue={name} onBlur={handleChange} name="Name" placeholder="Enter Your Name" />
                 </div>
-                <div class="form-group mb-3">
+                <div className="form-group mb-3">
                     <label htmlFor="email">Email Address:</label>
                     <input type="email" defaultValue={email} onBlur={handleChange} name="Email" className="form-control w-25" placeholder="Enter Your Email Address" />
                 </div>
-                <div class="form-group mb-3">
+                <div className="form-group mb-3">
                     <label htmlFor="message">Message:</label>
                     <textarea name="Message" defaultValue={message} onBlur={handleChange} className="form-control w-50" rows="5" />
                 </div>

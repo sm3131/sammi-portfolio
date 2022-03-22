@@ -1,10 +1,10 @@
 header {
-  color:whitesmoke;
-  font-size:20px;
+  color: whitesmoke;
+  font-size: 20px;
 }
 
 .nav-bar {
-  background:cornflowerblue;
+  background: cornflowerblue;
 }
 
 .nav-list {
@@ -17,30 +17,45 @@ header {
 }
 
 .nav-item:hover {
-  color:darkblue;
+  color: darkblue;
 }
 
 .nav-not-active {
-  color:whitesmoke;
+  color: whitesmoke;
 }
 
 .nav-active {
-  color:darkblue;
+  color: darkblue;
 }
 
 main {
-  background:aliceblue;
+  background: aliceblue;
 }
+
 h1 {
-  color:darkblue;
+  color: darkblue;
 }
 
 h2 {
-  color:darkblue;
+  color: darkblue;
+}
+
+.cover-img {
+  height: 50%;
+}
+
+.climb-img {
+  height:50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .about-list {
-  list-style:none;
+  list-style: none;
+}
+
+.about-item {
+  width: 230%;
 }
 
 .work-head {
@@ -60,63 +75,72 @@ h2 {
 }
 
 .project-anchor {
-  text-decoration:none;
+  text-decoration: none;
   text-align: center;
 }
 
 .project-name {
   text-align: center;
-  margin-top:30%;
+  margin-top: 30%;
 }
 
 .project-name:hover {
-  color:whitesmoke;
+  color: whitesmoke;
 }
 
 .project-repo {
-  color:darkblue;
-  text-align:center;
+  color: darkblue;
+  text-align: center;
   font-size: 30px;
 }
 
 .project-repo:hover {
-  color:whitesmoke;
+  color: whitesmoke;
   cursor: pointer;
 }
 
 .img-div {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  height: auto;
+  width: auto;
+  position: relative;
+  margin: 10px auto;
+  overflow: hidden;
+  display: inline;
+  float: left;
 }
 
 .app-img {
-  width:450px;
-  height:450px;
-  object-fit:scale-down;
+  height: auto;
+  width: auto;
+  position: relative;
 }
 
 .project-img:hover {
   background-color: white;
 }
 
-.contact-head{
- margin-left: 0.5em;
+.contact-head {
+  margin-left: 0.5em;
 }
 
 .contact-form {
- margin-left: 1.75rem;
+  margin-left: 1.75rem;
 }
 
 footer {
-  background:cornflowerblue;
+  background: cornflowerblue;
   text-align: center;
   font-size: 20px;
-  color:whitesmoke;
+  color: whitesmoke;
 }
 
 @media (max-width: 760px) {
   .about-head {
     text-align: center;
+  }
+
+  .about-item {
+    width: 100%;
   }
 
   .cover-img {
@@ -130,7 +154,7 @@ footer {
   .resume-head {
     text-align: center;
   }
-  
+
   .resume-text {
     text-align: center;
   }
