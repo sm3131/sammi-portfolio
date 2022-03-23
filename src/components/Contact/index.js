@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    const initialState = { name: '', email: '', message: '' };
+
+    const [formState, setFormState] = useState(initialState);
 
     const { name, email, message } = formState;
 
@@ -36,6 +38,11 @@ function Contact() {
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
+        Array.from(document.querySelectorAll("input")).forEach(
+            input => (input.value = "")
+          );        
+        document.querySelector("textarea").value = ""
+        setFormState(initialState);
     }
 
     return (
@@ -49,15 +56,15 @@ function Contact() {
                 )}
                 <div className="form-group mb-3">
                     <label htmlFor="name">Name:</label>
-                    <input type="text" className="form-control w-25" defaultValue={name} onBlur={handleChange} name="Name" placeholder="Enter Your Name" />
+                    <input type="text" className="form-control w-25" defaultValue={name} onBlur={handleChange} name="name" placeholder="Enter Your Name" />
                 </div>
                 <div className="form-group mb-3">
                     <label htmlFor="email">Email Address:</label>
-                    <input type="email" defaultValue={email} onBlur={handleChange} name="Email" className="form-control w-25" placeholder="Enter Your Email Address" />
+                    <input type="email" defaultValue={email} onBlur={handleChange} name="email" className="form-control w-25" placeholder="Enter Your Email Address" />
                 </div>
                 <div className="form-group mb-3">
                     <label htmlFor="message">Message:</label>
-                    <textarea name="Message" defaultValue={message} onBlur={handleChange} className="form-control w-50" rows="5" />
+                    <textarea name="message" defaultValue={message} onBlur={handleChange} className="form-control w-50" rows="5" />
                 </div>
                 <button type="submit" className="btn btn-primary mb-3">Submit</button>
             </form>
