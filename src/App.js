@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; 
+import React, { useState } from 'react';
 import PortfolioContainer from './components/PortfolioContainer';
 import Footer from './components/Footer'
 
@@ -6,8 +6,9 @@ function App() {
 
   return (
     <div >
+      <div>
         <PortfolioContainer />
-        <Footer />
+      </div>
     </div>
   );
 }
