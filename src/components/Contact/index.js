@@ -55,7 +55,7 @@ function Contact() {
     return (
         <section>
             <h1 className="contact-head">Contact me</h1>
-            <form className="contact-form" id="contact-form">
+            <form className="contact-form" id="contact-form" onSubmit={handleSubmit}>
                 {errorMessage && (
                     <div>
                         <p className="error-text text-danger">{errorMessage}</p>
@@ -73,7 +73,7 @@ function Contact() {
                     <label htmlFor="message">Message:</label>
                     <textarea name="Message" value={message} onChange={e => setMessageState(e.target.value)} onBlur={handleBlur} className="form-control form-box2" rows="5" />
                 </div>
-                <button type="submit" disabled={!name || !email || !message} className="btn btn-primary mb-3" onClick={handleSubmit}>Submit</button>
+                <button type="submit" disabled={!name || !email || !message} className="btn btn-primary mb-3">Submit</button>
             </form>
         </section>
     )
