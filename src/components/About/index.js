@@ -18,7 +18,7 @@ function About() {
                         <br></br>
                         <li className="about-item">
                             My goal is to eventually land a remote programming job, that will provide me with both stability and
-                            flexibility.I am still figuring out what areas of full stack web development I want to specialize in, but I currently have the skills in knowledge in both front-end and back-end technologies which will allow me to fit in with a variety of different companies.I have been working hard to create a portfolio that showcases the projects I have created throughout over the past 6 to 12 months.You can visit the Resume link to view a more formal overview of my schooling, work, and proficiencies.To view some of my larger coding projects, please visit the Portfolio link, and if you have any questions you can use the contact form in the Contact Me link to send me a message.
+                            flexibility. I am still trying to decide which areas of full stack web development I want to specialize in, but I currently have the skills and knowledge in both front-end and back-end technologies which will allow me to fit in with a variety of different companies.I have been working hard to create a portfolio that showcases the projects I have created throughout over the past 6 to 12 months. You can visit the Resume link to view a more formal overview of my schooling, work, and proficiencies.To view some of my larger coding projects, please visit the Portfolio link, and if you have any questions you can use the contact form in the Contact Me link to send me a message.
                         </li>
                     </ul>
                     <h2>Skills</h2>
@@ -39,7 +39,7 @@ function About() {
                         Other Interests
                     </h2>
                     <ul className="col-12 col-md-6 col-lg-6 about-list">
-                        <li className="about-item">Outside of coding I also enjoy rock climbing, biking, hiking, lifting weights, construction, and drawing.I also want to live out of my van and work remotely while traveling around the country to find the best outdoor recreation spots.Thank you for stopping by to peruse my page, and if you have any questions or would like to contact me do not hesitate to reach out in the "Contact Me" section.</li>
+                        <li className="about-item">Outside of coding I also enjoy rock climbing, biking, hiking, lifting weights, construction, and drawing. I want venture out in my van and work remotely while traveling around the country to find the best outdoor recreation spots.Thank you for stopping by to peruse my page, and if you have any questions or would like to contact me do not hesitate to reach out in the "Contact Me" section.</li>
                     </ul>
                 </div>
                 </div>
