@@ -8,7 +8,7 @@ function About() {
         <section className="container">
             <div className="row">
                 <h1 className="col-12 about-head">About Me</h1>
-                <img src={coverImage} alt="professional photo of Sammi Moore" className="col-12 col-md-6 col-lg-6 cover-img" />
+                <img src={coverImage} alt="professional headshot of Sammi Moore" className="col-12 col-md-6 col-lg-6 cover-img" />
                 <div className="col-12 col-md-6 col-lg-6 about-text">
                     <h2>Background</h2>
                     <ul className="col-12 col-md-6 col-lg-6 about-list" >
