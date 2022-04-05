@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sammi-portfolio/static/css/main.73caf083.css",
-    "main.js": "/sammi-portfolio/static/js/main.a4faf871.js",
+    "main.css": "/sammi-portfolio/static/css/main.3b956056.css",
+    "main.js": "/sammi-portfolio/static/js/main.590abcb0.js",
     "static/js/787.b3ccf6ad.chunk.js": "/sammi-portfolio/static/js/787.b3ccf6ad.chunk.js",
     "static/media/climb.png": "/sammi-portfolio/static/media/climb.f4596667b077b54b22f4.png",
     "static/media/read1.png": "/sammi-portfolio/static/media/read1.2efac9643a518d194967.png",
@@ -18,12 +18,12 @@
     "static/media/read4.png": "/sammi-portfolio/static/media/read4.2aa957cd3a208132568f.png",
     "static/media/resume.png": "/sammi-portfolio/static/media/resume.48f1b51d1372fb383c90.png",
     "index.html": "/sammi-portfolio/index.html",
-    "main.73caf083.css.map": "/sammi-portfolio/static/css/main.73caf083.css.map",
-    "main.a4faf871.js.map": "/sammi-portfolio/static/js/main.a4faf871.js.map",
+    "main.3b956056.css.map": "/sammi-portfolio/static/css/main.3b956056.css.map",
+    "main.590abcb0.js.map": "/sammi-portfolio/static/js/main.590abcb0.js.map",
     "787.b3ccf6ad.chunk.js.map": "/sammi-portfolio/static/js/787.b3ccf6ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73caf083.css",
-    "static/js/main.a4faf871.js"
+    "static/css/main.3b956056.css",
+    "static/js/main.590abcb0.js"
   ]
 }
