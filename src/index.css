@@ -3,6 +3,11 @@ header {
   font-size: 20px;
 }
 
+.name-head {
+  text-decoration:none;
+  color:whitesmoke;
+}
+
 .nav-bar {
   background: cornflowerblue;
 }

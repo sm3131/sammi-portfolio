@@ -6,7 +6,7 @@ function Nav({ currentPage, handlePageChange }) {
         <header className = "container">
             <div className ="row">
             <h1 className="col-12 text-center">
-                <a>
+                <a className="name-head" href="/">
                     Sammi Moore
                 </a>
             </h1>

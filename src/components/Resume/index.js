@@ -8,8 +8,8 @@ function Resume() {
         <section className="container">
             <div className="row">
                 <h1 className="col-12 resume-head">Resume</h1>
-                <a href={resumeFile} target="_blank" className="col-12 col-md-6 col-lg-6">
-                    <img src={resumeLogo} className="col-12" />
+                <a href={resumeFile} target="_blank" rel="noreferrer" className="col-12 col-md-6 col-lg-6">
+                    <img src={resumeLogo} alt="MERN stack coding resume logo" className="col-12" />
                 </a>
                 <div className="col-12 col-md-6 col-lg-6 resume-text">
                     <h2>Front-End Skills</h2>
