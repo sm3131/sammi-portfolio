@@ -1,25 +1,29 @@
 {
   "files": {
     "main.css": "/sammi-portfolio/static/css/main.73caf083.css",
-    "main.js": "/sammi-portfolio/static/js/main.35658177.js",
+    "main.js": "/sammi-portfolio/static/js/main.a4faf871.js",
     "static/js/787.b3ccf6ad.chunk.js": "/sammi-portfolio/static/js/787.b3ccf6ad.chunk.js",
     "static/media/climb.png": "/sammi-portfolio/static/media/climb.f4596667b077b54b22f4.png",
+    "static/media/read1.png": "/sammi-portfolio/static/media/read1.2efac9643a518d194967.png",
     "static/media/sammi.png": "/sammi-portfolio/static/media/sammi.6a2e4d3c7fccf255e6e9.png",
     "static/media/bored-brews-app.png": "/sammi-portfolio/static/media/bored-brews-app.d063d68e5b780443f283.png",
+    "static/media/read2.png": "/sammi-portfolio/static/media/read2.09bf317c309869c4f691.png",
     "static/media/weather-app.png": "/sammi-portfolio/static/media/weather-app.13ac585a155b735eee34.png",
     "static/media/workout-app.png": "/sammi-portfolio/static/media/workout-app.b528d8123f65e40e3265.png",
     "static/media/code-quiz-app.png": "/sammi-portfolio/static/media/code-quiz-app.5a1f5d166af02eb1f164.png",
+    "static/media/read3.png": "/sammi-portfolio/static/media/read3.d29f5c23917f821df1c3.png",
     "static/media/tech-blog-app.png": "/sammi-portfolio/static/media/tech-blog-app.47b713cfc90ff0b757fc.png",
+    "static/media/resume.pdf": "/sammi-portfolio/static/media/resume.8edc5599f3e786402d2e.pdf",
     "static/media/work-day-app.png": "/sammi-portfolio/static/media/work-day-app.4f93301cd40b8bf7c52e.png",
-    "static/media/resume.pdf": "/sammi-portfolio/static/media/resume.5ab7c433b34f9d210e2e.pdf",
+    "static/media/read4.png": "/sammi-portfolio/static/media/read4.2aa957cd3a208132568f.png",
     "static/media/resume.png": "/sammi-portfolio/static/media/resume.48f1b51d1372fb383c90.png",
     "index.html": "/sammi-portfolio/index.html",
     "main.73caf083.css.map": "/sammi-portfolio/static/css/main.73caf083.css.map",
-    "main.35658177.js.map": "/sammi-portfolio/static/js/main.35658177.js.map",
+    "main.a4faf871.js.map": "/sammi-portfolio/static/js/main.a4faf871.js.map",
     "787.b3ccf6ad.chunk.js.map": "/sammi-portfolio/static/js/787.b3ccf6ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73caf083.css",
-    "static/js/main.35658177.js"
+    "static/js/main.a4faf871.js"
   ]
 }
