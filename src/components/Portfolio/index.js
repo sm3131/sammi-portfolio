@@ -12,10 +12,10 @@ function Portfolio() {
                 repo: 'https://github.com/sm3131/workout-tracker-pro'
             },
             {
-                title: 'Weather Tracker',
-                name: 'weather-app',
-                link: 'https://sm3131.github.io/weather-dashboard/',
-                repo: 'https://github.com/sm3131/weather-dashboard'
+                title: 'Rocks and Ropes',
+                name: 'rocks-and-ropes-app',
+                link: 'https://rocks-and-ropes.herokuapp.com/',
+                repo: 'https://github.com/dmknapp2385/rocks-and-ropes'
             },
             {
                 title: 'Coding Tech Blog',
@@ -36,10 +36,10 @@ function Portfolio() {
                 repo: 'https://github.com/sm3131/code-quiz'
             },
             {
-                title: 'Work Day Scheduler',
-                name: 'work-day-app',
-                link: 'https://sm3131.github.io/work-day-scheduler/',
-                repo: 'https://github.com/sm3131/work-day-scheduler'
+                title: 'Weather Tracker',
+                name: 'weather-app',
+                link: 'https://sm3131.github.io/weather-dashboard/',
+                repo: 'https://github.com/sm3131/weather-dashboard'
             }
         ]
 
