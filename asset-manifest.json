@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sammi-portfolio/static/css/main.1649cdc3.css",
-    "main.js": "/sammi-portfolio/static/js/main.c78b6865.js",
+    "main.js": "/sammi-portfolio/static/js/main.a0ca9b50.js",
     "static/js/787.b3ccf6ad.chunk.js": "/sammi-portfolio/static/js/787.b3ccf6ad.chunk.js",
     "static/media/climb.png": "/sammi-portfolio/static/media/climb.f4596667b077b54b22f4.png",
     "static/media/read1.png": "/sammi-portfolio/static/media/read1.2efac9643a518d194967.png",
@@ -13,18 +13,18 @@
     "static/media/workout-app.png": "/sammi-portfolio/static/media/workout-app.b528d8123f65e40e3265.png",
     "static/media/code-quiz-app.png": "/sammi-portfolio/static/media/code-quiz-app.5a1f5d166af02eb1f164.png",
     "static/media/read3.png": "/sammi-portfolio/static/media/read3.d29f5c23917f821df1c3.png",
+    "static/media/resume-port.pdf": "/sammi-portfolio/static/media/resume-port.9fde919ad74c0869ab81.pdf",
     "static/media/tech-blog-app.png": "/sammi-portfolio/static/media/tech-blog-app.47b713cfc90ff0b757fc.png",
-    "static/media/resume.pdf": "/sammi-portfolio/static/media/resume.8edc5599f3e786402d2e.pdf",
     "static/media/work-day-app.png": "/sammi-portfolio/static/media/work-day-app.4f93301cd40b8bf7c52e.png",
     "static/media/read4.png": "/sammi-portfolio/static/media/read4.2aa957cd3a208132568f.png",
     "static/media/resume.png": "/sammi-portfolio/static/media/resume.48f1b51d1372fb383c90.png",
     "index.html": "/sammi-portfolio/index.html",
     "main.1649cdc3.css.map": "/sammi-portfolio/static/css/main.1649cdc3.css.map",
-    "main.c78b6865.js.map": "/sammi-portfolio/static/js/main.c78b6865.js.map",
+    "main.a0ca9b50.js.map": "/sammi-portfolio/static/js/main.a0ca9b50.js.map",
     "787.b3ccf6ad.chunk.js.map": "/sammi-portfolio/static/js/787.b3ccf6ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1649cdc3.css",
-    "static/js/main.c78b6865.js"
+    "static/js/main.a0ca9b50.js"
   ]
 }
