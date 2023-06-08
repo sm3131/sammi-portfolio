@@ -3,7 +3,7 @@ import React from "react";
 function Nav({ currentPage, handlePageChange }) {
 
     return (
-        <header className = "container">
+        <header className = "">
             <div className ="row">
             <h1 className="col-12 text-center">
                 <a className="name-head" href="/sammi-portfolio">

@@ -28,14 +28,14 @@ function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div className="main-body">
             <div className="nav-bar">
                 <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
             </div>
+            <div>
             {renderPage()}
-            <div className="footer-bar">
-                <Footer />
             </div>
+                <Footer />
         </div>
     );
 }

@@ -1,15 +1,12 @@
 header {
   color: whitesmoke;
   font-size: 20px;
+  background: cornflowerblue;
 }
 
 .name-head {
   text-decoration:none;
   color:whitesmoke;
-}
-
-.nav-bar {
-  background: cornflowerblue;
 }
 
 .nav-list {
@@ -45,22 +42,12 @@ h2 {
   color: darkblue;
 }
 
-.cover-img {
-  height: 50%;
-}
-
-.climb-img {
-  height:50%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
 .about-list {
   list-style: none;
 }
 
 .about-item {
-  width: 230%;
+  width: 100%;
 }
 
 .work-head {
@@ -140,14 +127,18 @@ textarea.form-box2 {
   width:50%
 }
 
+.main-body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 footer {
   text-align: center;
   font-size: 20px;
   color: whitesmoke;
-}
-
-.footer-bar {
   background: cornflowerblue;
+  margin-top: auto;
 }
 
 .footer-links {
@@ -160,21 +151,38 @@ footer {
   color:darkblue;
 }
 
+.about-head {
+  text-align: center;
+}
+
+.img-div-about {
+  align-self: center;
+  height: 50%;
+  width: auto;
+}
+
+.cover-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.climb-img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 10px;
+}
+
+.about-container {
+  margin-bottom: 10px;;
+}
+
 @media (max-width: 760px) {
-  .about-head {
+  .about-text {
     text-align: center;
   }
 
   .about-item {
     width: 100%;
-  }
-
-  .cover-img {
-    align-content: center;
-  }
-
-  .about-text {
-    text-align: center;
   }
 
   .resume-head {
