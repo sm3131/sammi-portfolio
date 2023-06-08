@@ -1,6 +1,6 @@
 import React from "react";
 import resumeLogo from "../../assets/img/resume.png"
-import resumeFile from "../../assets/resumeFile/resume.pdf"
+import resumeFile from "../../assets/resumeFile/resume-port.pdf"
 
 function Resume() {
 
@@ -8,7 +8,7 @@ function Resume() {
         <section className="container">
             <div className="row">
                 <h1 className="col-12 resume-head">Resume</h1>
-                <a href={"/"} target="_blank" rel="noreferrer" className="col-12 col-md-6 col-lg-6">
+                <a href={resumeFile} target="_blank" rel="noreferrer" className="col-12 col-md-6 col-lg-6 mt-4">
                     <img src={resumeLogo} alt="MERN stack coding resume logo" className="col-12" />
                 </a>
                 <div className="col-12 col-md-6 col-lg-6 resume-text">
