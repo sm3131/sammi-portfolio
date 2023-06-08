@@ -10,7 +10,7 @@ function About() {
                 <div className="col-12 col-md-4 col-lg-4 img-div-about">
                     <img src={coverImage} alt="professional headshot of Sammi Moore" className="cover-img" />
                 </div>
-                <div className="col-12 col-md-8 col-lg-8 about-text">
+                <div className="col-12 col-md-8 col-lg-8 mt-4 about-text">
                     <h2>Background</h2>
                     <ul className="about-list" >
                         <li className="about-item">
@@ -32,7 +32,7 @@ function About() {
                 <div className="col-12 col-md-4 col-lg-4 img-div-about">
                     <img src={climbImage} alt="Sammi Moore rock climbing outdoors" className="climb-img" />
                 </div>
-                <div className="col-12 col-md-8 col-lg-8 about-text">
+                <div className="col-12 col-md-8 col-lg-8 mt-4 about-text">
                     <h2>
                         Other Interests
                     </h2>

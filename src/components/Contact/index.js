@@ -54,7 +54,7 @@ function Contact() {
 
     return (
         <section>
-            <h1 className="contact-head">Contact me</h1>
+            <h1 className="contact-head">Contact Me</h1>
             <form className="contact-form" id="contact-form" onSubmit={handleSubmit}>
                 {errorMessage && (
                     <div>
