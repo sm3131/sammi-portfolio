@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/sammi-portfolio/static/css/main.1649cdc3.css",
-    "main.js": "/sammi-portfolio/static/js/main.a0ca9b50.js",
+    "main.js": "/sammi-portfolio/static/js/main.1c7e3524.js",
     "static/js/787.b3ccf6ad.chunk.js": "/sammi-portfolio/static/js/787.b3ccf6ad.chunk.js",
     "static/media/climb.png": "/sammi-portfolio/static/media/climb.f4596667b077b54b22f4.png",
     "static/media/read1.png": "/sammi-portfolio/static/media/read1.2efac9643a518d194967.png",
-    "static/media/sammi.png": "/sammi-portfolio/static/media/sammi.6a2e4d3c7fccf255e6e9.png",
+    "static/media/sammi.png": "/sammi-portfolio/static/media/sammi.a7c07dc673f0badefbd5.png",
     "static/media/bored-brews-app.png": "/sammi-portfolio/static/media/bored-brews-app.d063d68e5b780443f283.png",
     "static/media/read2.png": "/sammi-portfolio/static/media/read2.09bf317c309869c4f691.png",
     "static/media/weather-app.png": "/sammi-portfolio/static/media/weather-app.13ac585a155b735eee34.png",
@@ -20,11 +20,11 @@
     "static/media/resume.png": "/sammi-portfolio/static/media/resume.48f1b51d1372fb383c90.png",
     "index.html": "/sammi-portfolio/index.html",
     "main.1649cdc3.css.map": "/sammi-portfolio/static/css/main.1649cdc3.css.map",
-    "main.a0ca9b50.js.map": "/sammi-portfolio/static/js/main.a0ca9b50.js.map",
+    "main.1c7e3524.js.map": "/sammi-portfolio/static/js/main.1c7e3524.js.map",
     "787.b3ccf6ad.chunk.js.map": "/sammi-portfolio/static/js/787.b3ccf6ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1649cdc3.css",
-    "static/js/main.a0ca9b50.js"
+    "static/js/main.1c7e3524.js"
   ]
 }
