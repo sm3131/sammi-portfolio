@@ -38,7 +38,7 @@ function About() {
                     </h2>
                     <ul className="about-list">
                         <li className="about-item">
-                            Outside of coding I also enjoy rock climbing, biking, hiking, lifting weights, and drawing. I want venture out in my van and work remotely while traveling around the country to find the best outdoor recreation spots.
+                            Outside of coding I also enjoy rock climbing, biking, hiking, lifting weights, and drawing. I want to venture out in my van and work remotely, while traveling around the country to find the best outdoor recreation spots.
                         </li>
                     </ul>
                 </div>
