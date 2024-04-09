@@ -24,7 +24,7 @@ function About() {
                     <ul className="about-list-2">
                         <li className="about-item">Front-End: HTML5 | CSS3 | Javascript | Blade | Tailwind | Livewire | AlpineJs | React</li>
                         <li className="about-item">Back-End: PHP | Laravel | MySQL | Eloquent | Node.js | Express.js</li>
-                        <li className="about-item">Other Technologies: GitHub | Php MyAdmin | </li>
+                        <li className="about-item">Other Technologies: Git | GitHub | Php MyAdmin | Asana</li>
                     </ul>
                 </div>
             </div>
@@ -38,7 +38,22 @@ function About() {
                     </h2>
                     <ul className="about-list">
                         <li className="about-item">
-                            Outside of coding I also enjoy rock climbing, biking, hiking, lifting weights, and drawing. I want to venture out in my van and work remotely, while traveling around the country to find the best outdoor recreation spots.
+                            Outside of coding I also enjoy:
+                        </li>
+                        <li className="about-item">
+                            - Rockclimbing
+                        </li>
+                        <li className="about-item">
+                            - Hiking
+                        </li>
+                        <li className="about-item">
+                            - The outdoors
+                        </li>
+                        <li className="about-item">
+                            - Health & Nutrition
+                        </li>
+                        <li className="about-item">
+                            - Teaching & Coaching
                         </li>
                     </ul>
                 </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import resumeLogo from "../../assets/img/resume.png"
 import resumeFile from "../../assets/resumeFile/resume-port.pdf"
 
 function Resume() {
@@ -7,9 +6,9 @@ function Resume() {
     return (
         <section className="container">
             <div className="row">
-                <h1 className="col-12 resume-head">Resume</h1>
-                <a href={resumeFile} target="_blank" rel="noreferrer" className="col-12 col-md-6 col-lg-6 mt-4">
-                    <img src={resumeLogo} alt="MERN stack coding resume logo" className="col-12" />
+                <h1 className="col-12 resume-head">Resume Details</h1>
+                <a href={resumeFile} target="_blank" rel="noreferrer" className="col-12 col-md-6 col-lg-6 text-info fs-3 text-center p-4">
+                    Click Here To View Full Resume
                 </a>
                 <div className="col-12 col-md-6 col-lg-6 resume-text">
                     <h2>Front-End Skills</h2>
@@ -17,7 +16,7 @@ function Resume() {
                         <li>HTML5</li>
                         <li>CSS3</li>
                         <li>Javascript</li>
-                        <li>Blade</li>
+                        <li>Laravel Blade</li>
                         <li>Livewire</li>
                         <li>Tailwind CSS</li>
                         <li>React</li>
@@ -31,6 +30,7 @@ function Resume() {
                         <li>Eloquent</li>
                         <li>NodeJS</li>
                         <li>ExpressJS</li>
+                        <li>Python</li>
                     </ul>
                 </div>
             </div>
