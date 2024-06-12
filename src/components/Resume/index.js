@@ -1,5 +1,5 @@
 import React from "react";
-import resumeFile from "../../assets/resumeFile/resume-port.pdf"
+import resumeFile from "../../assets/resumeFile/sm-resume-new.pdf"
 
 function Resume() {
 

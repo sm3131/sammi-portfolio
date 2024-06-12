@@ -6,6 +6,12 @@ function Portfolio() {
     const projects =
         [
             {
+                title: 'Climb Crux Conquer',
+                name: 'climb-crux-conquer',
+                link: 'https://climb-crux-conquer-471f0be43ef1.herokuapp.com/',
+                repo: 'https://github.com/sm3131/climb-crux'
+            },
+            {
                 title: 'Workout Tracker Pro',
                 name: 'workout-app',
                 link: 'https://workout-tracker-pro.herokuapp.com/',
@@ -28,12 +34,6 @@ function Portfolio() {
                 name: 'bored-brews-app',
                 link: 'https://fmatthew40.github.io/bored-and-brews/',
                 repo: 'https://github.com/fmatthew40/bored-and-brews'
-            },
-            {
-                title: 'Code Quiz',
-                name: 'code-quiz-app',
-                link: 'https://sm3131.github.io/code-quiz/',
-                repo: 'https://github.com/sm3131/code-quiz'
             },
             {
                 title: 'Weather Tracker',
